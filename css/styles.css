@@ -282,8 +282,14 @@ p {
 }
 
 .social {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-list {
+  width: 40px;
+  height: 40px;
 }
 
 .button-icon {
