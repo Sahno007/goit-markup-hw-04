@@ -361,14 +361,19 @@ p {
 }
 
 /*====================== Footer ==================*/
+.footer {
+  display: flex;
+  align-items: baseline;
+}
 
 .dawn {
   background-color: var(--background-hero-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  align-items: baseline;
-  gap: 120px;
+}
+
+.dawn-logo {
+  margin-right: 120px;
 }
 
 .footer-logo {
