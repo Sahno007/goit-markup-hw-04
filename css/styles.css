@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-/* Body */
+/*=================== Body ==================*/
 
 .body {
   font-family: "Roboto", sans-serif;
@@ -36,13 +36,13 @@ p {
   background-color: #ffffff;
 }
 
-/* Header */
+/*===================== Header ========================*/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* Navigation */
+/*===================== Navigation ======================*/
 
 .header-container {
   display: flex;
@@ -91,11 +91,11 @@ p {
   gap: 40px;
 }
 
+/*================== Address =======================*/
+
 .numbers {
   display: flex;
 }
-
-/* Address */
 
 .address {
   font-style: normal;
@@ -115,9 +115,9 @@ p {
   color: #404bbf;
 }
 
-/* Main Content */
+/*============================= Main Content ==========================*/
 
-/* Section 1 */
+/*================ Section 1 =================*/
 
 .one {
   background-color: var(--background-hero-color);
@@ -159,7 +159,7 @@ p {
   cursor: pointer;
 }
 
-/* Section 2 */
+/*==================== Section 2 ===================*/
 
 .two {
   padding-top: 120px;
@@ -192,7 +192,7 @@ p {
   color: var(--paragraph-color);
 }
 
-/* Section 3 */
+/*======================= Section 3 =================*/
 
 .three {
   padding-bottom: 120px;
@@ -212,7 +212,7 @@ p {
   display: flex;
 }
 
-/* Section 4 */
+/*====================== Section 4 ========================*/
 
 .four {
   background-color: #f4f4fd;
@@ -254,7 +254,7 @@ p {
   text-align: center;
 }
 
-/* Footer */
+/*====================== Footer ==================*/
 
 .dawn {
   background-color: var(--background-hero-color);
@@ -284,9 +284,9 @@ p {
   line-height: 1.5;
 }
 
-/* PORTFOLIO */
+/*============================= PORTFOLIO =====================*/
 
-/* Section 1 */
+/*===================== Section 1 ==================*/
 
 .tack {
   padding-top: 96px;
@@ -324,7 +324,7 @@ p {
   border-radius: 4px;
 }
 
-/* Section 2 */
+/*============================= Section 2 ======================*/
 
 .list.opportunity {
   display: flex;
