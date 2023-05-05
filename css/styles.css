@@ -179,6 +179,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .list.tech {
   display: flex;
   gap: 24px;
@@ -204,6 +205,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
+}
+
+.icon-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /*======================= Section 3 =================*/
