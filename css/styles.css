@@ -312,6 +312,53 @@ p {
   fill: #f4f4fd;
 }
 
+/*======================= Section 5 =======================*/
+
+.five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--main-text-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.customers-list-icon {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customers-icon {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.customer {
+  fill: currentColor;
+}
+
 /*====================== Footer ==================*/
 
 .dawn {
