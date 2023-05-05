@@ -119,7 +119,12 @@ p {
 
 /*============================= Main Content ==========================*/
 
-.overlay {
+/*================ Section 1 =================*/
+
+.one {
+  background-color: var(--background-hero-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
   max-width: 1440px;
   max-height: 600px;
   margin-left: auto;
@@ -130,14 +135,6 @@ p {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-}
-
-/*================ Section 1 =================*/
-
-.one {
-  background-color: var(--background-hero-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero {
